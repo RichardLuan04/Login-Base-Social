@@ -1,0 +1,40 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+input {
+    border-radius: 5px;
+}
+
+.top {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.login {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 150px;
+    width: 200px;
+    background-color:rgb(219, 255, 247);
+    border-radius: 20%;
+    border-style: solid;
+    border-color:rgb(20, 204, 164);
+    padding: 15px;
+}
+
+.botao {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+img {
+    height: 200px;
+    width: 200px;
+}
